@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="./house.css" rel="stylesheet">
+    <title>My House</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href>My House</a>
+            </div>
+            <form class="navbar-form navbar-right">
+                <a class="btn btn-default" target="_blank" href="https://github.com/seiyria/my-house">GitHub</a>
+            </form>
+        </div>
+    </nav>
+    <div class="container" id="page">
+      <div class="row">
+        <div class="col-md-12" id="climate">
+        </div>
+        <div class="col-md-12" id="sound">
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.10.0/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mithril/0.2.3/mithril.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="https://cdn.rawgit.com/insin/msx/master/dist/MSXTransformer.js"></script>
+    <script type="text/msx;harmony=true" src="./house.js"></script>
+</body>
+</html>
