@@ -127,7 +127,7 @@ const soundChartData = (data) => {
         zoomType: 'x'
       },
       title: {
-        text: 'Sound Level'
+        text: 'Sound & Light'
       },
       tooltip: {
         shared: true
